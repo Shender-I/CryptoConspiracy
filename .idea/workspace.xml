@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CryptoConspiracy:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55575ed-692e-4b3f-872b-f791d18a85df" name="Changes" comment="Added GUI version with Swing and README">
+    <list default="true" id="d55575ed-692e-4b3f-872b-f791d18a85df" name="Changes" comment="Moved README to root">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CryptoConspiracy_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shender-I"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shender-I&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Shender-I/CryptoConspiracy",
-    "accountId": "26125e8b-8a5a-45a4-8faf-c63c65902bec"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shender-I/CryptoConspiracy&quot;,
+    &quot;accountId&quot;: &quot;26125e8b-8a5a-45a4-8faf-c63c65902bec&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -51,11 +59,20 @@
     "Application.CryptoConspiracyGUI.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/user/Desktop/CryptoConspiracy/CryptoConspiracy/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/user/Desktop/CryptoConspiracy/CryptoConspiracy/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\CryptoConspiracy\CryptoConspiracy" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CryptoConspiracyGUI">
     <configuration name="CryptoConspiracyGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CryptoConspiracyGUI" />
@@ -95,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742639138896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved README to root">
+      <option name="closed" value="true" />
+      <created>1742640074778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742640074778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added GUI version with Swing and README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added GUI version with Swing and README" />
+    <MESSAGE value="Moved README to root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved README to root" />
   </component>
 </project>
