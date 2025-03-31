@@ -7,6 +7,8 @@ import javafx.scene.input.ClipboardContent;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class CryptoConspiracyJavaFX extends Application {
     private final CryptoEngine engine = new CryptoEngine();
     private final ConspiracyGenerator generator = new ConspiracyGenerator();
@@ -154,7 +156,7 @@ public class CryptoConspiracyJavaFX extends Application {
         // Настройка сцены
         Scene scene = new Scene(root, 500, 400);
         try {
-            scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
+            scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/styles.css")).toExternalForm());
         } catch (Exception e) {
             System.out.println("Не удалось загрузить CSS: " + e.getMessage());
         }
