@@ -1,57 +1,62 @@
-# Crypto Conspiracy
+# CryptoConspiracy
 
-Консольное и графическое приложение на Java для шифрования текстов с "конспирологическим" уклоном.
+A JavaFX application for encrypting and decrypting messages with a "conspiracy" twist. It supports multiple encryption methods and features a modern light-themed graphical interface.
 
-## Описание
-Crypto Conspiracy — это приложение, которое позволяет шифровать и расшифровывать сообщения с использованием различных методов шифрования. После шифрования добавляется случайная "конспирологическая" фраза для юмористического эффекта. Проект имеет две версии: консольную и графическую (с интерфейсом на Swing).
+## Description
+CryptoConspiracy is a JavaFX application that allows users to encrypt and decrypt messages using various encryption methods. After encryption, a random "conspiracy" phrase is added for a humorous effect. The application features a modern graphical interface with accent colors and a copy-to-clipboard functionality.
 
-## Функционал
-- Шифрование и расшифровка текста с помощью трех методов:
-    - Шифр Цезаря
-    - Перестановочный шифр
-    - Шифр Виженера (с ключевым словом)
-- Поддержка русского и английского алфавитов
-- Добавление случайных "конспирологических" фраз при шифровании
-- Две версии:
-    - Консольная (`Main.java`)
-    - Графическая (`CryptoConspiracyGUI.java`) с интерфейсом на Swing
+## Features
+- Encrypt and decrypt messages using three methods:
+    - Caesar Cipher
+    - Transposition Cipher
+    - Vigenère Cipher (with a keyword)
+- Supports both English and Russian alphabets.
+- Adds random "conspiracy" phrases after encryption (e.g., "The government is hiding the truth!").
+- Modern JavaFX graphical interface with a light theme and accent colors.
+- Copy-to-clipboard button for easy result sharing.
 
-## Технологии
-- Java Core
-- Swing (для GUI)
-- String manipulation
-- Random
+## Screenshot
+![CryptoConspiracy JavaFX GUI](screenshots/screenshot.png)
 
-## Установка
-1. Склонируйте репозиторий:
-2. git clone https://github.com/Shender-I/CryptoConspiracy.git
-2. Откройте проект в IntelliJ IDEA.
-3. Для консольной версии запустите `Main.java`.
-4. Для графической версии запустите `CryptoConspiracyGUI.java`.
+## Requirements
+- Java 17 or higher.
+- JavaFX SDK (version 24 recommended).
 
-## Использование
-- **Графическая версия**:
-1. Выберите метод шифрования (Цезаря, Перестановочный, Виженера).
-2. Выберите действие (Зашифровать/Расшифровать).
-3. Введите сообщение.
-4. Если выбран Виженер, введите ключевое слово.
-5. Нажмите "Обработать", чтобы увидеть результат.
-
-- **Консольная версия**:  
-  Следуйте инструкциям в консоли, выбирая метод, действие и вводя текст.
-
-## Пример
-- Ввод:  
-  Сообщение: `СЕКРЕТ`  
-  Метод: Шифр Виженера  
-  Ключевое слово: `КОД`  
-  Действие: Зашифровать
-- Вывод:
-- Результат: ЩТОШТХ
-  [Тайна раскрыта]: Правительство скрывает правду!
+## Installation and Running
+1. Clone the repository:git clone https://github.com/Shender-I/CryptoConspiracy.git
+2. Download the `CryptoConspiracy.jar` from the [Releases](https://github.com/Shender-I/CryptoConspiracy/releases) section.
+3. Ensure you have Java 17+ and JavaFX installed:
+- Download Java from [Oracle](https://www.oracle.com/java/technologies/downloads/).
+- Download JavaFX from [Gluon](https://gluonhq.com/products/javafx/).
+4. Run the application using the following command (replace `path\to\javafx-sdk\lib` with the path to your JavaFX `lib` folder):
+java --module-path "path\to\javafx-sdk\lib" --add-modules javafx.controls,javafx.fxml -jar CryptoConspiracy.jar
+Example (Windows): "C:\Program Files\Java\jdk-23\bin\java" --module-path "C:\JavaFX\javafx-sdk-24\lib" --add-modules javafx.controls,javafx.fxml -jar CryptoConspiracy.jar
 
 
-## Запуск без установки Java
-1. Перейдите в раздел [Releases](https://github.com/Shender-I/CryptoConspiracy/releases).
-2. Скачайте `CryptoConspiracy.exe`.
-3. Дважды кликните на файл, чтобы запустить приложение.
+## Usage
+1. Launch the application using the command above.
+2. Select an encryption method (Caesar, Transposition, or Vigenère).
+3. Choose an action (Encrypt or Decrypt).
+4. Enter your message.
+5. If using Vigenère, provide a keyword.
+6. Click "Process" to see the result.
+7. Use the "Copy" button to copy the result to your clipboard.
+
+## Example
+**Input:**
+- Message: SECRET
+- Method: Vigenère Cipher
+- Keyword: CODE
+- Action: Encrypt
+
+**Output:**
+- Result: AFOTCY [Conspiracy Revealed]: The government is hiding the truth!
+
+## Technologies Used
+- Java 23
+- JavaFX 24
+- IntelliJ IDEA
+
+## Project Structure
+- `src/`: Source code (Java files, FXML, CSS).
+- `out/artifacts/CryptoConspiracy_jar/`: Compiled JAR file.

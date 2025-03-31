@@ -1,0 +1,79 @@
+/* Основной контейнер */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f5f5f5, #e0e0e0); /* Лёгкий градиент для глубины */
+}
+
+/* Панель ввода */
+.grid-pane {
+    -fx-background-color: #ffffff; /* Белый фон */
+    -fx-background-radius: 10;
+    -fx-border-color: #42a5f5; /* Акцентная голубая граница */
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2); /* Лёгкая тень */
+}
+
+/* Метки */
+.label {
+    -fx-text-fill: #333333; /* Темно-серый текст */
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+/* Специальная метка для "Сообщение" */
+.label#inputLabel {
+    -fx-text-fill: #1976d2; /* Акцентный синий цвет */
+    -fx-font-weight: bold;
+}
+
+/* Поля ввода и выпадающие списки */
+.combo-box, .text-field {
+    -fx-background-color: #f9f9f9; /* Очень светлый серый фон */
+    -fx-text-fill: #333333;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Эффект при фокусе */
+.combo-box:focused, .text-field:focused {
+    -fx-border-color: #42a5f5; /* Голубая граница при фокусе */
+    -fx-border-width: 2;
+}
+
+/* Область вывода */
+.text-area {
+    -fx-control-inner-background: #fafafa; /* Очень светлый серый фон */
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-border-color: #90caf9; /* Лёгкий голубой оттенок для рамки */
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+
+/* Кнопки */
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 5;
+}
+
+/* Кнопка "Обработать" */
+.button#processButton {
+    -fx-background-color: linear-gradient(to bottom, #1976d2, #1565c0); /* Градиентный синий */
+}
+
+.button#processButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #1565c0, #0d47a1); /* Темнее при наведении */
+}
+
+/* Кнопка "Копировать" */
+.button#copyButton {
+    -fx-background-color: linear-gradient(to bottom, #4caf50, #43a047); /* Градиентный зелёный */
+}
+
+.button#copyButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #43a047, #388e3c); /* Темнее при наведении */
+}

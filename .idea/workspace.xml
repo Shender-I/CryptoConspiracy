@@ -9,11 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55575ed-692e-4b3f-872b-f791d18a85df" name="Changes" comment="Moved README to root">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CryptoConspiracy_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="d55575ed-692e-4b3f-872b-f791d18a85df" name="Changes" comment="Updated README with .exe instructions">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CryptoConspiracyJavaFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CryptoConspiracy_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CryptoConspiracy_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoConspiracy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoConspiracy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CryptoConspiracyGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +50,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -57,11 +64,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CryptoConspiracyGUI.executor": "Run",
+    "Application.CryptoConspiracyJavaFX.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/CryptoConspiracy/CryptoConspiracy/src/resources",
     "onboarding.tips.debug.path": "C:/Users/user/Desktop/CryptoConspiracy/CryptoConspiracy/src/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
@@ -70,13 +79,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\CryptoConspiracy\CryptoConspiracy\src\resources" />
       <recent name="C:\Users\user\Desktop\CryptoConspiracy\CryptoConspiracy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CryptoConspiracyGUI">
+  <component name="RunManager" selected="Application.CryptoConspiracyJavaFX">
     <configuration name="CryptoConspiracyGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CryptoConspiracyGUI" />
       <module name="CryptoConspiracy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoConspiracyJavaFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CryptoConspiracyJavaFX" />
+      <module name="CryptoConspiracy" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\JavaFX\javafx-sdk-24\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,8 +106,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CryptoConspiracyJavaFX" />
+      <item itemvalue="Application.CryptoConspiracyGUI" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CryptoConspiracyJavaFX" />
         <item itemvalue="Application.CryptoConspiracyGUI" />
         <item itemvalue="Application.Main" />
       </list>
@@ -120,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742640074778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README with .exe instructions">
+      <option name="closed" value="true" />
+      <created>1742729358666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742729358666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added GUI version with Swing and README" />
     <MESSAGE value="Moved README to root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved README to root" />
+    <MESSAGE value="Updated README with .exe instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with .exe instructions" />
   </component>
 </project>
